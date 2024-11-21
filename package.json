@@ -1,8 +1,9 @@
 {
   "name": "hackaton",
   "version": "1.0.0",
-  "main": "user.js",
+  "main": "app.js",  // This should point to the correct entry file, probably app.js
   "scripts": {
+    "start": "node app.js",  // Ensure this is the correct entry file for your application
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
